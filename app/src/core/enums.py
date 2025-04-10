@@ -7,5 +7,5 @@ class BaseEnum(str, Enum):
 
 
 class SortOrder:
-    ASC = "asc"
-    DESC = "desc"
+    ASC = 'asc'
+    DESC = 'desc'

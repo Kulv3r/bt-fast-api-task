@@ -51,7 +51,7 @@ def run_migrations_offline() -> None:
         url=settings.POSTGRES_URL,
         target_metadata=target_metadata,
         literal_binds=True,
-        dialect_opts={"paramstyle": "named"},
+        dialect_opts={'paramstyle': 'named'},
     )
 
     with context.begin_transaction():
